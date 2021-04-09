@@ -1,2 +1,2 @@
-# Component-UI
- This is my component library
+# CSS-Component-Library
+ This is my css component library.

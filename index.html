@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="index/index.css">
+     <title>Fibonacci dream library</title>
+</head>
+
+<body>
+     <nav class ="navigation">
+          <h1>Component Library</h1>
+          <div class="sociocontainer">
+          <a href="https://github.com/AmeyRJoshi">
+          <span class="iconify" data-icon="logos:github-octocat" data-inline="false"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/amey-joshi-a72bb6136/">
+          <span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span>
+          </a>
+          <a href="https://twitter.com/AmeyRJoshi?s=03">
+          <span class="iconify" data-icon="logos:twitter" data-inline="false"></span>
+          </a>
+          
+          </div>
+     </nav>
+     <br>
+     <!-- <header class="header">
+          <h1>Fibonacci dream library</h1>
+          <p>Fibonacci dream library is made with the help of various libraries.</p>
+          <p>-AMEY JOSHI</p>
+     </header> -->
+
+     <div class="container ">
+          
+          <aside>
+               <h2>Components</h2>
+               
+               <ul>
+                    <li><a href="#avatar_page">Avatar</a></li>
+                    <li><a href="#alert_page">Alert</a></li>
+                    <li><a href="#badge_page">Badge</a></li>
+                    <li><a href="#button_page">Button</a></li>
+                    <li><a href="#card_page">Card</a></li>
+                    <li><a href="#image_page">Image</a></li>
+                    <li><a href="#input_page">Input</a></li>
+                    <li><a href="#modal_page">Modal</a></li>
+                    <li><a href="#list_page">Lists</a></li>
+               </ul>
+          
+          </aside>
+    
+          
+          <div class="component-container">
+               <div class="avatarcontainer">
+                    <div>
+                         <h1 id="avatar_page">Avatar</h1>
+
+                    </div>
+                    <div class="avataralign">
+                         <div class="avatar-border">
+                              <img src="index/images/avatar.jpeg" alt="Avatar" class="avatar">
+                              <h3><code>.avatar</code></h3>
+                         </div>
+
+                         <div class="avatar-border">
+                              <img src="index/images/avatar.jpeg" alt="Avatar" class="avatarmedium">
+                              <h3><code>.avatarmedium</code></h3>
+                         </div>
+
+                         <div class="avatar-border">
+                              <img src="index/images/avatar.jpeg" alt="Avatar" class="avatarlarge">
+                              <h3><code>.avatarlarge</code></h3>
+                         </div>
+                         <div class="avatar-border">
+                              <img src="index/images/avatar.jpeg" alt="Avatar" class="avatarextralarge">
+                              <h3><code>.avatarextralarge</code></h3>
+                         </div>
+                         <div class="avatar-border">
+                              <img src="index/images/avatar.jpeg" alt="Avatar" class="avatarlargest">
+                              <h3><code>.avatarlargest</code></h3>
+                         </div>
+
+                    </div>
+                    <div class="code-preview">
+                         <h3>HTML</h3>
+                         <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%2826%2C131%2C218%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522avatar-border%2522%253E%250A%2520%253Cimg%2520src%253D%2522images%252Favatar.jpeg%2522%2520alt%253D%2522Avatar%2522%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%253Cp%253E.avatar%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+                              style="width: 648px; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                              sandbox="allow-scripts allow-same-origin">
+                         </iframe>
+                    </div>
+               </div>
+               <div class="alertcontainer">
+                    <div>
+                         <h1 id="alert_page">Alert</h1>
+                    </div>
+                    <div class="component-container">
+                         <section>
+                              <h3><code>.alert</code></h3>
+                              <div class="alert">
+                                   <p>Attention! This is a simple alert! <span class="close-alert">&times;</span></p>
+                              </div>
+                         </section>
+
+                         <section>
+                              <h3><code>.caution-alert</code></h3>
+                              <div class="caution-alert">
+                                   <p>Proceed with caution! <span class="close-alert">&times;</span></p>
+                              </div>
+                         </section>
+
+                         <section>
+                              <h3><code>.warning-alert</code></h3>
+                              <div class="warning-alert">
+                                   <p>Warning! You are leaving the cart without checking out! <span
+                                             class="close-alert">&times;</span></p>
+                              </div>
+                         </section>
+
+                         <section>
+                              <h3><code>.success-alert</code></h3>
+                              <div class="success-alert">
+                                   <p>Success! Your payment has been received! <span class="close-alert">&times;</span>
+                                   </p>
+                              </div>
+                         </section>
+
+                         <section>
+                              <h3><code>.notification-alert</code></h3>
+                              <div class="notification-alert">
+                                   <p>There's an unread email waiting for you! <span class="close-alert">&times;</span>
+                                   </p>
+                              </div>
+                         </section>
+
+                         <div class="code-preview">
+                              <h3>HTML</h3>
+                         </div>
+                         <section>
+                              <iframe
+                                   src="https://carbon.now.sh/embed?bg=rgba%28118%2C153%2C188%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%253E%250A%2520%2520%253Ch3%253E%253Ccode%253E.alert%253C%252Fcode%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2522%253E%250A%2520%2520%2520%253Cp%253EAttention%21%2520This%2520is%2520a%2520simple%2520alert%21%2520%253Cspan%2520class%253D%2522close-alert%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                                   style="width: 867px; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                                   sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+
+                         </section>
+
+
+                    </div>
+
+               </div>
+               <div class="badgecontainer">
+                    <div>
+                         <h1 id="badge_page">Badge</h1>
+                    </div>
+                    <div class="component-container">
+                         <h2><code>.badgeone</code></h2>
+                         <h1>Example heading <span class="badgeone">New</span></h1>
+
+                         <h2><code>.badgesecond</code></h2>
+                         <h2>Example heading <span class="badgesecond">New</span></h2>
+
+                         <h2><code>.badgethird</code></h2>
+                         <h2>Example heading <span class="badgethird">New</span></h2>
+
+                         <h2><code>.badgefourth</code></h2>
+                         <h4>Example heading <span class="badgefourth">New</span></h4>
+
+                         <h2><code>.badgefifth</code></h2>
+                         <h5>Example heading <span class="badgefifth">New</span></h5>
+
+                         <h2><code>.badgesixth</code></h2>
+                         <h6>Example heading <span class="badgesixth">New</span></h6>
+                    </div>
+                    <div>
+                         <h2>HTML</h2>
+                    </div>
+                    <section>
+                         <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%2841%2C58%2C77%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EExample%2520heading%2520%253Cspan%2520class%253D%2522badgeone%2522%253ENew%253C%252Fspan%253E%253C%252Fh1%253E%250A"
+                              style="width: 639px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
+                              sandbox="allow-scripts allow-same-origin">
+                         </iframe>
+                    </section>
+                    <div>
+                         <h2>Badge on Icon</h2>
+                    </div>
+
+                    <div class="component-container">
+
+                         <button type="button" class="icon-button1">
+
+                              <span class="material-icons">notifications</span>
+                              <span class="icon-button__badge">1</span>
+
+                         </button>
+                         <h3><code>.icon-button1</code></h3>
+                         <button type="button" class="icon-button2">
+                              <span class="material-icons">eco</span>
+
+                         </button>
+                         <h3><code>.icon-button2</code></h3>
+                         <button type="button" class="icon-button3">
+                              <span class="material-icons">done</span>
+
+                         </button>
+                         <h3><code>.icon-button3</code></h3>
+                         <button type="button" class="icon-button4">
+                              <span class="material-icons">favorite</span>
+
+                         </button>
+                         <h3><code>.icon-button4</code></h3>
+
+                         <div>
+                              <h2>HTML</h2>
+                         </div>
+                         <section>
+                              <iframe
+                                   src="https://carbon.now.sh/embed?bg=rgba%2841%2C58%2C77%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522icon-button1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Enotifications%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button__badge%2522%253E14%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+                                   style="width: 597px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
+                                   sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                         </section>
+                        
+
+                    </div>
+
+
+
+               </div>
+               <div class="buttoncontainer">
+
+
+                    <div>
+                         <h1 id="button_page">Button</h1>
+                    </div>
+                    <section>
+                         <button type="button" class=" btn-primary">Primary</button>
+                         <h3><code>.btn-primary</code></h3>
+                    </section>
+                    <br>
+                    <section>
+                         <button type="button" class=" btn-secondary">Secondary</button>
+                         <h3><code>.btn-secondary</code></h3>
+                    </section>
+                    <br>
+
+                    <section>
+                         <a href="https://neog.camp/qualifier/home" type="button" class=" btn-link">Link</a>
+                         <h3><code>.btn-link</code></h3>
+                    </section>
+                    <section>
+                         <button class="floatingbutton">+</button>
+                         <h3><code>.floatingbutton</code></h3>
+                    </section>
+
+
+                    <div class="code-preview">
+                         <h2>HTML</h2>
+                         <section>
+                              <iframe
+                                   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=nord&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E"
+                                   style="width: 648px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                                   sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+
+                         </section>
+
+
+
+                    </div>
+               </div>
+               <div class="cardcontainer">
+                    <div>
+                         <h1 id="card_page">Card</h1>
+                    </div>
+                    <div class="row">
+                         <div class="card">
+
+                              <img class="outline" src="index/images/card1.jpeg" />
+                              <h1>ART</h1>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cupiditate. Nam porro
+                                   quas ipsa. Ea
+                                   obcaecati re
+                              </p>
+
+
+                         </div>
+
+                         <div class="card">
+                              <img class="outline" src="index/images/card2.jpeg" />
+                              <h1>PHOTO</h1>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cupiditate. Nam porro
+                                   quas ipsa. Ea
+                                   obcaecati re
+                              </p>
+                              <button class="design">Primary Button</button>
+                         </div>
+                         <div class="card">
+                              <img class="outline" src="index/images/card3.jpeg" />
+                              <h1>FOREST</h1>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cupiditate. Nam porro
+                                   quas ipsa. Ea
+                                   obcaecati re
+                              </p>
+                              <h1><span class="badgeone">Badge</span></h1>
+                         </div>
+
+                    </div>
+                    <div class="row1">
+                         <div class="card1">
+                              <img class="outline" src="index/images/card4.jpg" />
+
+                              <p>
+                                   In Life....
+                              </p>
+                         </div>
+                         <div class="card1">
+                              <img class="outline" src="index/images/card6.jpg" />
+                              <h1>U.I. GOKU</h1>
+                              <p>
+                                   He is the Ultimate Sayian Warrior.Lend him your KI to defeat the enemy and save the
+                                   planet earth.
+                              </p>
+                         </div>
+                         <div class="card1">
+                              <img class="outline" src="index/images/card7.jpg" />
+                              <h1>SSB VEGETA</h1>
+                              <p>
+                                   He fights with his Sayian Pride.
+                                   He keeps training harder to become stronger than GOKU,
+                                   someday in his own unique ways.
+
+                              </p>
+                         </div>
+
+                    </div>
+
+
+               </div>
+               <div class="imagecontainer">
+                    <div>
+                         <h1 id="image_page">Image</h1>
+                    </div>
+                    <img src="index/images/card4.jpg" class="black-bordered set-image-width-350px" alt="Image" />
+                    <img src="index/images/card3.jpeg" class="black-bordered set-image-width-350px" alt="Image" />
+                    <img src="index/images/card6.jpg" class="black-bordered set-image-width-350px" alt="Image" />
+                    <img src="index/images/card7.jpg" class="black-bordered set-image-width-350px" alt="Image" />
+                    <img src="index/images/card8.jpg" class="black-bordered set-image-border" alt="Image" />
+                    <h3><code>.black-bordered set-image-border</code></h3>
+                    <section>
+                         <h3>HTML</h3>
+
+                         <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522images%252Fcard4.jpg%2522%2520class%253D%2522black-bordered%2520set-image-width-350px%2522%2520alt%253D%2522Image%2522%2520%252F%253E"
+                              style="width: 884px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                              sandbox="allow-scripts allow-same-origin">
+                         </iframe>
+                    </section>
+
+               </div>
+               <div class="inputcontainer">
+                    <h1 id="input_page">Input</h1>
+                    <form class="newcontainer">
+                         <!--  1st component  -->
+                         <div class="inputcomp">
+                              <h2>Form</h2>
+                         </div>
+                         <label>
+                              First Name
+                         </label>
+                         <input class="input" type="text">
+                         <br>
+                         <br>
+                         <label>Last Name</label>
+                         <input class="input" type="text">
+
+                    </form>
+                    <br>
+                    <br>
+                    <!-- 2nd component   -->
+                    <form class="onlyin">
+                         <div class="onlytext">
+                              <h2> Type your text below</h2>
+                         </div>
+                         <textarea id="txt-input" placeholder="Type text ">
+
+                        </textarea>
+                    </form>
+                    <br>
+                    <br>
+                    <section>
+                         <div class="newcontainer">
+                              <h1>HTML</h1>
+                              <iframe
+                                   src="https://carbon.now.sh/embed?bg=rgba%2864%2C80%2C93%2C1%29&t=nord&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522newcontainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522inputcomp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EForm%253C%252Fh2%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520First%2520Name%250A%2520%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%253E%250A%2520%253Cbr%253E%250A%2520%253Cbr%253E%250A%2520%253Clabel%253ELast%2520Name%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%253E%250A%250A%253C%252Fform%253E"
+                                   style="width: 437px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+                                   sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+
+                         </div>
+
+
+
+                    </section>
+               </div>
+               <div class="modalcontainer">
+                    <div class="modalbody">
+                         <div>
+                              <h1 id="modal_page">Modal</h1>
+                         </div>
+                         <!--  1st Component -->
+                         <button id="modalBtn" class="button">Click Here!</button>
+                         <div id="simpleModal" class="modal">
+                              <div class="modal-content">
+                                   <span class="closeBtn">&times;</span>
+
+                                   <img src="index/images/card5.jpg" class="black-bordered set-image-width-350px imgposition"
+                                        alt="Image" />
+                                   <p>Iron Man is a fictional superhero appearing in American comic books published by
+                                        Marvel Comics. The character was co-created by writer and editor Stan Lee,
+                                        developed by scripter Larry Lieber, and designed by artists Don Heck and Jack
+                                        Kirby.</p>
+                              </div>
+                         </div>
+                    </div>
+                    <script>
+                         var modal = document.getElementById('simpleModal');
+                         var modalBtn = document.getElementById('modalBtn');
+                         var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+
+                         modalBtn.addEventListener('click', openModal);
+                         closeBtn.addEventListener('click', closeModal);
+                         window.addEventListener('click', outsideClick);
+
+                         function openModal() {
+                              modal.style.display = 'block';
+                         }
+
+                         function closeModal() {
+                              modal.style.display = 'none';
+                         }
+
+                         function outsideClick(e) {
+                              if (e.target == modal) {
+                                   modal.style.display = 'none';
+                              }
+
+                         }
+                    </script>
+                    <section>
+                         <h2>HTML</h2>
+                         <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%2876%2C145%2C201%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522modalBtn%2522%2520class%253D%2522button%2522%253EClick%2520Here%21%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522simpleModal%2522%2520class%2520%253D%2522modal%2522%253E%250A%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%253Cspan%2520class%253D%2522closeBtn%2522%253E%2526times%253B%253C%252Fspan%253E%250A%253Cimg%2520src%253D%2522images%252Fcard5.jpg%2522%2520class%253D%2522black-bordered%2520set-image-width-350px%2520imgposition%2522%2520alt%253D%2522Image%2522%2520%252F%253E%250A%253Cp%253EIron%2520Man........%253Cp%253E%250A%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                              style="width: 985px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                              sandbox="allow-scripts allow-same-origin">
+                         </iframe>
+
+                    </section>
+
+
+               </div>
+               <div class="listcontainer">
+                    <div>
+                         <h1 id="list_page">Lists</h1>
+                    </div>
+
+                    <div class="unorderedlist">
+                         <h3>Normal</h3>
+                         <ul>
+                              <li class="colorcommon">✔️ List Item 1</li>
+                              <br>
+                              <li class="colorcommon">✔️ List Item 2</li>
+                              <br>
+                              <li class="colorcommon">✔️ List Item 3</li>
+                              <br>
+                              <li class="colorcommon">✔️ List Item 4</li>
+                              <br>
+                              <li class="colorcommon">✔️ List Item 5</li>
+                              <br>
+
+                         </ul>
+                         <br>
+                         <br>
+                         <h3>Stacked</h3>
+                         <ul>
+                              <li class="bgcolor">🔔You have (1) new messages! <span class="exitbtn">&times;</span></li>
+
+                              <li class="bgcolor">🔔You have (2) new messages! <span class="exitbtn">&times;</span></li>
+
+                              <li class="bgcolor">🔔You have (3) new messages! <span class="exitbtn">&times;</span></li>
+
+                              <li class="bgcolor">🔔You have (4) new messages! <span class="exitbtn">&times;</span></li>
+
+                              <li class="bgcolor">🔔You have (5) new messages! <span class="exitbtn">&times;</span></li>
+
+                              <li class="bgcolor">🔔You have (6) new messages! <span class="exitbtn">&times;</span></li>
+
+                         </ul>
+                    </div>
+                    <br>
+                    <div>
+                         <h2>HTML [NORMAL] </h2>
+                    </div>
+                    <section>
+                         <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%253Cli%2520class%253D%2522colorcommon%2522%253E%25E2%259C%2594%25EF%25B8%258F%2520List%2520Item%25201%253C%252Fli%253E%250A%253Cbr%253E%250A%253Cli%2520class%253D%2522colorcommon%2522%253E%25E2%259C%2594%25EF%25B8%258F%2520List%2520Item%25202%253C%252Fli%253E%250A%253Cbr%253E%250A%253Cli%2520class%253D%2522colorcommon%2522%253E%25E2%259C%2594%25EF%25B8%258F%2520List%2520Item%25203%253C%252Fli%253E%250A%253Cbr%253E%250A%253Cli%2520class%253D%2522colorcommon%2522%253E%25E2%259C%2594%25EF%25B8%258F%2520List%2520Item%25204%253C%252Fli%253E%250A%253Cbr%253E%250A%253Cli%2520class%253D%2522colorcommon%2522%253E%25E2%259C%2594%25EF%25B8%258F%2520List%2520Item%25205%253C%252Fli%253E%250A%253Cbr%253E%250A%253C%252Ful%253E"
+                              style="width: 515px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                              sandbox="allow-scripts allow-same-origin">
+                         </iframe>
+
+                    </section>
+                    <br>
+                    <div>
+                         <h2> HTML [STACKED]</h2>
+                    </div>
+                    <section>
+                         <iframe
+                         src="https://carbon.now.sh/embed?bg=rgba%28108%2C56%2C149%2C1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%253EStacked%253C%252Fh3%253E%250A%253Cul%253E%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%281%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%282%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%283%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%284%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%285%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522bgcolor%2522%253E%25F0%259F%2594%2594You%2520have%2520%286%29%2520new%2520messages%21%2520%253Cspan%2520class%253D%2522exitbtn%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fli%253E%250A%2520%250A%253C%252Ful%253E"
+                         style="width: 926px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+                         sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+                        
+                    </section>
+                   
+               </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+     </div>
+
+
+
+
+
+
+     </div>
+     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+</body>
+
+</html>
